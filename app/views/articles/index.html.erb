@@ -1,29 +1,32 @@
+<body>
 <p id="notice"><%= notice %></p>
+  
+  <h1 align=center><nobr class = "shima">島</nobr><nobr class = "dai">大</nobr><nobr class = "hyaku">百</nobr><nobr class = "ka">科</nobr></h1>
 
-<h1>島大百科</h1>
-
-<table>
+<table align=center>
   <thead>
     <tr>
       <th>タイトル</th>
-      <th>内容</th>
       <th colspan="3"></th>
     </tr>
   </thead>
+  </body>
 
   <tbody>
     <% @articles.each do |article| %>
       <tr>
         <td><%= article.title %></td>
-        <td><%= article.content %></td>
         <td><%= link_to '詳細', article %></td>
         <td><%= link_to '編集', edit_article_path(article) %></td>
         <td><%= link_to '削除', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
-</table>
+  </table>
 
-<br>
+<div align=center>
 
 <%= link_to '新規作成', new_article_path %>
+<link rel = "stylesheet" href = "articles.scss">
+  
+</div>

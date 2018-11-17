@@ -1,3 +1,98 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size:100px;
+  padding-top:30px;
+  font-family:HG行書体;
+}
+
+.shima {
+  color:black;
+  background-color:white;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.shima:hover {
+  color:white;
+  background-color:black;
+}
+
+.dai {
+  color:white;
+  background-color:gray;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.dai:hover {
+  color:gray;
+  background-color:white;
+}
+
+.ka {
+  color:white;
+  background-color:black;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.ka:hover {
+  color:black;
+  background-color:white;
+}
+
+.hyaku {
+  color:black;
+  background-color:silver;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.hyaku:hover {
+  color:silver;
+  background-color:black;
+}
+
+th {
+  font-size:20px;
+  height:30px;
+  padding-top:30px;
+  font-family:Impact;
+}
+
+.shinnki {
+  font-size:70px;
+  color:black;
+  background-color:white;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.shinnki:hover {
+  color:red;
+  background-color:green;
+}
+
+div {
+  font-size:20px;
+  padding-top:30px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+	}
+a:hover {
+    transition: 0.8s;
+}
